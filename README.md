@@ -1,2 +1,2 @@
 # Coding-Services
-Repository for all website code for remote access
+Repository for all website code to remotely access
