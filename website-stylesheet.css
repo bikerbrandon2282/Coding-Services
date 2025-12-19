@@ -1,0 +1,18 @@
+.pagetitle {
+ display: grid;
+ align-items: center; 
+ grid-template-columns: 1fr 2fr;
+ column-gap: 0px;
+}
+#name {
+    color: black;
+
+
+}
+#logo {
+    width: 100px;
+    height: auto;
+}
+.navs{
+    margin-right: 15px;
+}
