@@ -6,8 +6,6 @@
 }
 #name {
     color: black;
-
-
 }
 #logo {
     width: 100px;
@@ -15,4 +13,5 @@
 }
 .navs{
     margin-right: 15px;
+    font-size: 20px;
 }
