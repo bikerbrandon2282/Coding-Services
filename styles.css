@@ -3,12 +3,15 @@
  align-items: center; 
  grid-template-columns: 1fr 2fr;
  column-gap: 0px;
+ border: solid 3px;
+ background-color:#8A2BE2;
+ width:device-width;
 }
 #name {
-    color: black;
+    color: #FFD700;
 }
 #logo {
-    width: 100px;
+    width: 10vw;
     height: auto;
 }
 .navs{
