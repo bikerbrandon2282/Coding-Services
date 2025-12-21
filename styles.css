@@ -1,17 +1,18 @@
+
 .pagetitle {
  display: grid;
  align-items: center; 
  grid-template-columns: 1fr 2fr;
- column-gap: 0px;
+ column-gap: 1px;
  border: solid 3px;
  background-color:#8A2BE2;
- width:device-width;
+ padding:10px
 }
 #name {
     color: #FFD700;
 }
 #logo {
-    width: 10vw;
+    width: 7rem;
     height: auto;
 }
 .navs{
