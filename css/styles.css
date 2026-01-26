@@ -1,12 +1,11 @@
 
 .pagetitle {
- display: grid;
+ display: flex;
  align-items: center; 
- grid-template-columns: 1fr 2fr;
- column-gap: 1px;
  border: solid 3px;
  background-color:#8A2BE2;
- padding:10px
+ padding:10px;
+ height:25%;
 }
 #name {
     color: #FFD700;
