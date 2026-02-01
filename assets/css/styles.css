@@ -28,16 +28,3 @@ a{
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
-.maintenance-message {
-  display: flex;
-  padding-top:150px;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  text-align: center;
-  font-family: Arial, sans-serif;
-  color: #3a3a3a;
-  background-size: cover;
-  background: url(../assets/images/coming-soon.jpg) no-repeat center center/cover;
-  z-index: 4;
-}
