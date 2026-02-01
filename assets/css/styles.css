@@ -38,6 +38,6 @@ a{
   font-family: Arial, sans-serif;
   color: #3a3a3a;
   background-size: cover;
-  background: url(/assets/images/coming-soon.jpg) no-repeat center center/cover;
+  background: url(../assets/images/coming-soon.jpg) no-repeat center center/cover;
   z-index: 4;
 }
