@@ -42,10 +42,17 @@ h2, h3 {
   background: radial-gradient(circle at top, #1f1f1f 0, #121212 60%);
 }
 
+.col-md-4 p {
+ color: #dcdcdc !important;
+}
 /* Cards */
 .card {
   background-color: #1e1e1e;
   border: 1px solid #2a2a2a;
+}
+
+.card p,.card ul {
+  color: #dcdcdc;
 }
 
 .card-title {
