@@ -3,74 +3,108 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CodeForge Industries</title>
+    <title>CodeForge Industries | About Me</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-    crossorigin="anonymous"
-    >
+      rel="stylesheet" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/styles.css">
-    <!-- Favicon -->
-     <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"
-    >
-    
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets\images\codeforge-logo.jpg" alt="Company Logo" id="logo">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/codeforge-logo.jpg" alt="Company Logo" id="logo" class="me-2">
+            <span>CodeForge Industries</span>
           </a>
-          <a class="navbar-brand" href="index.html">CodeForge Industries</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link active" href="about.html" disabled>About Me</a>
-              <a class="nav-link" href="services.html"disabled>Services</a>
-              <a class="nav-link " href="contact.html"disabled>Contact</a>
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <h1>Main Content</h1>
+
+    <main class="py-5">
+      <div class="container">
+        <h1 class="text-center mb-4">About Me</h1>
+
+        <div class="row g-4 align-items-start">
+          <div class="col-md-4 text-center">
+            <img src="assets/images/codeforge-logo.jpg" alt="Brandon portrait" class="about-photo mb-3">
+            <p class="text-muted">
+              Brandon · Junior Full Stack Web Developer & Electronics Repair Technician
+            </p>
+          </div>
+
+          <div class="col-md-8">
+            <h2>Who I Am</h2>
+            <p>
+              I'm Brandon, a junior full stack web developer and electronics repair technician based in Cinderford,
+              England. I run <strong>Brandon's Coding Services</strong>, operating under the brand
+              <strong>CodeForge Industries</strong>, where I combine software engineering with hands‑on hardware
+              troubleshooting.
+            </p>
+
+            <h2 class="mt-4">Web Development Background</h2>
+            <p>
+              I focus on building clean, accessible, and responsive web interfaces using HTML, CSS, and JavaScript.
+              I enjoy structuring layouts with Flexbox and Grid, and I care about semantic markup and good UX.
+              On the back‑end side, I'm learning Python and server configuration to grow into full stack roles.
+            </p>
+            <ul>
+              <li>Intermediate HTML, CSS, and modern layout techniques</li>
+              <li>Intermediate JavaScript for interactive front‑end behaviour</li>
+              <li>Beginner–intermediate server setup and configuration</li>
+              <li>Beginner Python for scripting and back‑end logic</li>
+            </ul>
+
+            <h2 class="mt-4">Electronics & Repair Experience</h2>
+            <p>
+              I work on practical electronics repair—diagnosing faults, tracing signal paths, and restoring devices
+              to working order. This includes TVs, game consoles, mobility scooters, and small appliances.
+            </p>
+            <ul>
+              <li>Electronics troubleshooting (beginner–intermediate)</li>
+              <li>Console repair (e.g., Xbox DVD laser adjustment)</li>
+              <li>TV mainboard and wireless hardware diagnostics</li>
+              <li>Battery capacity optimisation for mobility scooters</li>
+            </ul>
+
+            <h2 class="mt-4">How I Work</h2>
+            <p>
+              I approach both code and hardware with an engineering mindset: understand the system, isolate the
+              problem, and implement a clean, maintainable fix. Whether it's refactoring a layout or tracing a
+              faulty power rail, I aim for solutions that are reliable and well‑documented.
+            </p>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer class="py-3 bg-dark text-center text-light">
+      <div class="container">
+        <small>&copy; <span id="year"></span> CodeForge Industries · Brandon's Coding Services</small>
+      </div>
+    </footer>
+
     <script 
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
-    crossorigin="anonymous">
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+      crossorigin="anonymous">
+    </script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </body>
 </html>

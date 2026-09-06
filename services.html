@@ -1,71 +1,136 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CodeForge Industries</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeForge Industries | Services</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
-    crossorigin="anonymous"
-    >
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicon/favicon-16x16.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"
-    >
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"
-    >
-    
-    <link rel="manifest" href="assets/favicon/site.webmanifest">
+      rel="stylesheet" 
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+      crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="assets\images\codeforge-logo.jpg" alt="Company Logo" id="logo">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img src="assets/images/codeforge-logo.jpg" alt="Company Logo" id="logo" class="me-2">
+            <span>CodeForge Industries</span>
           </a>
-          <a class="navbar-brand" href="index.html">CodeForge Industries</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-              <a class="nav-link" href="about.html" disabled>About Me</a>
-              <a class="nav-link active" href="services.html" disabled>Services</a>
-              <a class="nav-link" href="contact.html"disabled>Contact</a>
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="index.html">Home</a>
+              <a class="nav-link" href="about.html">About Me</a>
+              <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      <h1>Services</h1>
+
+    <main class="py-5">
+      <div class="container">
+        <h1 class="text-center mb-4">Services</h1>
+
+        <p class="text-center mb-5">
+          I offer a mix of web development and electronics repair services. Below is an overview of how I can help.
+        </p>
+
+        <div class="row g-4">
+          <!-- Web dev services -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Web Development Services</h2>
+                <p>
+                  From simple landing pages to small web applications, I build responsive, maintainable sites tailored
+                  to your needs.
+                </p>
+                <ul>
+                  <li>Custom landing pages and portfolio sites</li>
+                  <li>Small business websites (services, contact, branding)</li>
+                  <li>Interactive front‑end features with JavaScript</li>
+                  <li>Bootstrap‑based responsive layouts</li>
+                  <li>Basic back‑end integration and API consumption</li>
+                </ul>
+                <p class="mt-3">
+                  <strong>Tech stack:</strong> HTML, CSS, JavaScript, Bootstrap, basic Python and server configuration.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Electronics services -->
+          <div class="col-md-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Electronics Repair & Diagnostics</h2>
+                <p>
+                  I provide practical diagnostics and repair for consumer electronics, focusing on safety and
+                  cost‑effective solutions.
+                </p>
+                <ul>
+                  <li>Game console troubleshooting and repair</li>
+                  <li>TV mainboard and wireless hardware diagnostics</li>
+                  <li>Battery capacity optimisation for mobility scooters</li>
+                  <li>Basic component replacement and soldering</li>
+                  <li>General fault‑finding and power path analysis</li>
+                </ul>
+                <p class="mt-3">
+                  <strong>Approach:</strong> careful inspection, methodical testing, and clear communication about
+                  repair options and risks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Combined projects / consulting -->
+        <div class="row g-4 mt-4">
+          <div class="col-md-12">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h2 class="card-title">Hybrid Projects & Consulting</h2>
+                <p>
+                  I especially enjoy projects that combine software and hardware—like automated systems, dashboards
+                  for devices, or tools that help you manage and monitor electronics.
+                </p>
+                <ul>
+                  <li>Arduino‑based automation (e.g., cocktail machine)</li>
+                  <li>Simple web dashboards for device status or logs</li>
+                  <li>Consulting on DIY electronics and safe design</li>
+                </ul>
+                <p class="mt-3">
+                  If you have an idea that mixes code and circuits, I’d love to talk about it.
+                </p>
+                <a href="contact.html" class="btn btn-primary mt-2">Discuss a project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <footer class="py-3 bg-dark text-center text-light">
+      <div class="container">
+        <small>&copy; <span id="year"></span> CodeForge Industries · Brandon's Coding Services</small>
+      </div>
+    </footer>
+
+    <script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+      crossorigin="anonymous">
+    </script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
