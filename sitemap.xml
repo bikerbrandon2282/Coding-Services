@@ -6,5 +6,22 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
-  <!-- Add your other HTML page links below if you have them -->
+  <url>
+    <loc>https://codeforgeindustries.co.ukservices.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://codeforgeindustries.co.ukabout.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://codeforgeindustries.co.ukcontact.html</loc>
+    <lastmod>2026-11-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
